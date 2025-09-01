@@ -1,0 +1,39 @@
+nfl-fantasy-betting-dashboard/
+│── backend/
+│   ├── main.py
+│   ├── config.py
+│   ├── routers/
+│   │   ├── nfl.py
+│   │   ├── fantasy.py
+│   │   ├── odds.py
+│   │   ├── parlay.py
+│   │   └── games.py
+│   ├── utils/
+│   │   ├── odds.py
+│   │   └── parlay.py
+│   ├── requirements.txt
+│   ├── Procfile
+│   └── Dockerfile
+│
+│── frontend/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   └── src/
+│       ├── App.jsx
+│       ├── index.css
+│       ├── api/
+│       │   ├── client.js
+│       │   ├── nfl.js
+│       │   ├── fantasy.js
+│       │   └── odds.js
+│       └── components/
+│           ├── LiveGames.jsx
+│           ├── FantasyScores.jsx
+│           ├── BestBets.jsx
+│           ├── ParlayBuilder.jsx
+│           └── RecommendedParlay.jsx
+│
+│── README.md
